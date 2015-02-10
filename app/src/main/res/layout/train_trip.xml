@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+    <TextView
+        android:id="@+id/depart_time"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"/>
+
+    <View
+        android:id="@+id/time_divider"
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/depart_time"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/trip_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/depart_time"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/arrive_time"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/time_divider"/>
+
+</RelativeLayout>

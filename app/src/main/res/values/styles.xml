@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303f9f</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorAccent">#FF0000</item>
+        <item name="colorControlNormal">#FF0000</item>
+        <item name="colorControlHighlight">#00FF00</item>
+        <item name="colorControlActivated">#ffaa39a1</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner</item>
+         -->
+        <item name="colorAccent">#FF0000</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">#6a92ff</item>
+        <item name="colorPrimaryDark">#7182b5</item>
+        <item name="colorAccent">#dfe5f4</item>
+        <item name="android:textColorPrimary">#dfe5f4</item>
+    </style>
+
+</resources>

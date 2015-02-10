@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lucasmoellers.metraupn.SettingsActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_awesome_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_awesome_toolbar"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/destination_outbound_label"
+            android:text="OUTBOUND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-8dp"
+            />
+        <Spinner
+            android:id="@+id/destination_outbound_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/destination_outbound_label"/>
+
+        <TextView
+            android:id="@+id/destination_inbound_label"
+            android:text="INBOUND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="-8dp"
+            android:layout_below="@id/destination_outbound_spinner"/>
+        <Spinner
+            android:id="@+id/destination_inbound_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/destination_inbound_label"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
